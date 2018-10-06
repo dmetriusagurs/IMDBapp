@@ -1,0 +1,9 @@
+<!--<h1>Hello, Rails</h1>-->  
+<form action="welcome/create" method="post">
+<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+
+<!--above is the url that will submit the form-->   
+    <input type="text">
+    <!-- other inputs here -->
+    <input type="submit" value="Submit This Form">
+  </form>
